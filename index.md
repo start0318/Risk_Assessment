@@ -52,7 +52,7 @@ di.display_html('''<button onclick="jQuery('.input_area').toggle(); jQuery('.pro
 
 
 ```python
-Image(filename='1.png') 
+![]Image(filename='1.png') 
 ```
     
 ## 4.Definitions
@@ -86,7 +86,7 @@ Arbuckle, L., & Emam, K. E. (2020). Building an Anonymization pipeline: Creating
 
 
 ```python
-Image(filename='4.png') 
+![] Image(filename='4.png') 
 ```
 
 ### 4.6 Disclosure Risk Measures
@@ -132,7 +132,7 @@ Image(filename='4.png')
 
 
 ```python
-Image(filename='5.png') 
+![] Image(filename='5.png') 
 ```
 
    𝑓𝑘 (sample frequency of key 𝑘): the number of individuals in the sample with the same combination of quasi-identifiers. Therefore, Individuals with the same values of quasi-identifiers have the same sample frequency. 
@@ -165,7 +165,7 @@ Image(filename='5.png')
 
 
 ```python
-Image(filename='6.png') 
+![] Image(filename='6.png') 
 ```
 
 
@@ -211,7 +211,7 @@ Image(filename='6.png')
 
 
 ```python
-Image(filename='7.png') 
+![] Image(filename='7.png') 
 ```
 
 
