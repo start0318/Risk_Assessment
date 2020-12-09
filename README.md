@@ -193,7 +193,7 @@
     predictive due to their data mining, flexible and non-linear nature, are not usually calibrated to model geographical
     relationships, essentially being ‘aspatial’ algorithms. 
 
-    I learn that Spatial is special!!!  Dealing with geo spatial data, I needed a methodology that account not only 
+    I learned that Spatial is Special!!!  Dealing with geo spatial data, I needed a methodology that account not only 
     for spatial structure of data but the meaning of that data. I found specific libraries in python to evaluate
     privacy using locations data(scikit-mobility) and do spatial geo-statistics (pysal); even though I did not use 
     them directly on my project, exploring them planted ideas on a better approach to solve my project.
