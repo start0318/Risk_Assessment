@@ -1,16 +1,3 @@
-```python
-from IPython.display import Image
-from IPython.display import display
-from IPython.display import HTML
-import IPython.core.display as di # Example: di.display_html('<h3>%s:</h3>' % str, raw=True)
-
-# This line will hide code by default when the notebook is exported as HTML
-di.display_html('<script>jQuery(function() {if (jQuery("body.notebook_app").length == 0) { jQuery(".input_area").toggle(); jQuery(".prompt").toggle();}});</script>', raw=True)
-
-# This line will add a button to toggle visibility of code blocks, for use with the HTML export version
-di.display_html('''<button onclick="jQuery('.input_area').toggle(); jQuery('.prompt').toggle();">Toggle code</button>''', raw=True)
-```
-
 
 # Privacy Risk Assessment
 # National Household Travel Survey Data
@@ -50,23 +37,12 @@ di.display_html('''<button onclick="jQuery('.input_area').toggle(); jQuery('.pro
     for household members, as well as travel and vehicle data.  Collection period varies between 24-hrs to 48
     hrs.
 
-
-```python
-![]Image(filename='1.png') 
-```
-    
 ## 4.Definitions
 
     The following definitions and concept were used in the risk assessment
 
 ## 4.1 Attribute Classification
 
-
-```python
-Image(filename='3.png') 
-```
-
-Arbuckle, L., & Emam, K. E. (2020). Building an Anonymization pipeline: Creating safe data. O'Reilly Media. p.44
 
 ### 4.2 Identifiers:
     The identifier attributes can be used to identify the individual unambiguously. A typical example of
@@ -84,10 +60,6 @@ Arbuckle, L., & Emam, K. E. (2020). Building an Anonymization pipeline: Creating
     between 0 and 1, where 0 denotes that all elements belong to a certain class or if there exists only one
     class, and 1 denotes that the elements are randomly distributed across various classes.
 
-
-```python
-![] Image(filename='4.png') 
-```
 
 ### 4.6 Disclosure Risk Measures
 
@@ -131,10 +103,6 @@ Arbuckle, L., & Emam, K. E. (2020). Building an Anonymization pipeline: Creating
     identifiers are sex, age, etc...
 
 
-```python
-![] Image(filename='5.png') 
-```
-
    𝑓𝑘 (sample frequency of key 𝑘): the number of individuals in the sample with the same combination of quasi-identifiers. Therefore, Individuals with the same values of quasi-identifiers have the same sample frequency. 
 
     A value of 2 for an observation means that in the sample, there is one more individual with exactly the same combination of values for the selected variables.
@@ -162,12 +130,6 @@ Arbuckle, L., & Emam, K. E. (2020). Building an Anonymization pipeline: Creating
 ### 4.12 Entropy: Shannon’s entropy quantifies the amount of information in a variable. The idea with entropy
     is that the more heterogenous and impure a feature is, the higher the entropy. Conversely, the more
     homogenous and pure a feature is, the lower the entropy.
-
-
-```python
-![] Image(filename='6.png') 
-```
-
 
 
     The expected amount of self-information contained in a random event is called entropy. The lower the entropy,
@@ -207,13 +169,6 @@ Arbuckle, L., & Emam, K. E. (2020). Building an Anonymization pipeline: Creating
     Built a Risk-Utility Map for the dataset hosted by the TSCD will be beneficial to show data providers the TSCD accountability and data protection safeguards in place.
 
     Example of Risk-Utility Map:
-
-
-
-```python
-![] Image(filename='7.png') 
-```
-
 
 ## 8. References: Please refer to the refefce file attached in this repository.
 
