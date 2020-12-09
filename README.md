@@ -179,7 +179,7 @@
 
     Example of Risk-Utility Map:
 
-## 8. References: Please refer to the refefce file attached in this repository.
+## 8. References: Please refer to the bibliography.doc file attached in this repository. 
 
 ## 9. Lessons Learned:
 
