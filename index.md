@@ -103,18 +103,24 @@
     identifiers are sex, age, etc...
 
 
-   𝑓𝑘 (sample frequency of key 𝑘): the number of individuals in the sample with the same combination of quasi-identifiers. Therefore, Individuals with the same values of quasi-identifiers have the same sample frequency. 
+   𝑓𝑘 (sample frequency of key 𝑘): the number of individuals in the sample with the same combination of quasi-identifiers. 
+   Therefore, Individuals with the same values of quasi-identifiers have the same sample frequency. 
 
-    A value of 2 for an observation means that in the sample, there is one more individual with exactly the same combination of values for the selected variables.
+    A value of 2 for an observation means that in the sample, there is one more individual with exactly the same combination 
+    of values for the selected variables.
 
     It is important to note that missing values are treated as if they were any other value. 
     If 𝑓𝑘=1, this individual has a unique combination of values of quasi-identifiers and is called “sample unique”.
 
-    The fewer the individuals with whom an individual shares his or her combination of quasi-identifiers, the more likely the individual is to be correctly matched in another dataset that contains these quasi-identifiers. 
+    The fewer the individuals with whom an individual shares his or her combination of quasi-identifiers, the more likely the 
+    individual is to be correctly matched in another dataset that contains these quasi-identifiers. 
 
-    The individual risk is the same for all individuals sharing the same pattern of values of quasi-identifiers. This individual risk can also be interpreted as the probability of disclosure for the individuals.
+    The individual risk is the same for all individuals sharing the same pattern of values of quasi-identifiers.
+    This individual risk can also be interpreted as the probability of disclosure for the individuals.
 
-    This risk is the worst-case scenario risk and does not imply that the person will be re-identified with certainty with this probability.  For instance, if an individual included in the data is not included in the external data file, the probability for a correct match is zero. Enthought the risk measure computed based on the frequencies was positive.
+    This risk is the worst-case scenario risk and does not imply that the person will be re-identified with certainty with this probability.
+    For instance, if an individual included in the data is not included in the external data file, the probability for a correct match is zero. 
+    Even thought the risk measure computed based on the frequencies was positive.
 
 
 ### 4.10 Global risk:
@@ -166,7 +172,8 @@
 
 
 ## 7. Further work
-    Built a Risk-Utility Map for the dataset hosted by the TSCD will be beneficial to show data providers the TSCD accountability and data protection safeguards in place.
+    Built a Risk-Utility Map for the dataset hosted by the TSCD will be beneficial to show data providers the TSCD 
+    accountability and data protection safeguards in place.
 
     Example of Risk-Utility Map:
 
@@ -174,11 +181,20 @@
 
 ## 9. Learning lessons:
 
-    Coming into this project with little to zero experience or knowledge in the privacy landscape was bit intimidated and challenging for sure. An intensive literature review was a great place to start and shape the work needed to be done. I’ve to remind myself to be comfortable with the unknown and strive to do the best while I was learning in the process.  
+    Coming into this project with little to zero experience or knowledge in the privacy landscape was bit intimidated and 
+    challenging for sure. An intensive literature review was a great place to start and shape the work needed to be done. 
+    I’ve to remind myself to be comfortable with the unknown and strive to do the best while I was learning in the process.  
 
-    I struggled to find a direct process workflow to answer the research questions. My first approach to this project was apply some familiar concepts and techniques to evaluate privacy, like machine learning models, but the results did not make much sense, making me doubt on the validity of my approach.  I quickly realize that ML models, although highly predictive due to their data mining, flexible and non-linear nature, are not usually calibrated to model geographical relationships, essentially being ‘aspatial’ algorithms. 
+    I struggled to find a direct process workflow to answer the research questions. My first approach to this project was 
+    apply some familiar concepts and techniques to evaluate privacy, like machine learning models, but the results did not 
+    make much sense, making me doubt on the validity of my approach.  I quickly realize that ML models, although highly 
+    predictive due to their data mining, flexible and non-linear nature, are not usually calibrated to model geographical
+    relationships, essentially being ‘aspatial’ algorithms. 
 
-    I learn that Spatial is special!!!  Dealing with geo spatial data, I needed a methodology that account not only for spatial structure of data but the meaning of that data. I found specific libraries in python to evaluate privacy using locations data(scikit-mobility) and do spatial geo-statistics (pysal); even though I did not use them directly on my project, exploring them planted ideas on a better approach to solve my project.
+    I learn that Spatial is special!!!  Dealing with geo spatial data, I needed a methodology that account not only for spatial
+    structure of data but the meaning of that data. I found specific libraries in python to evaluate privacy using locations d
+    ata(scikit-mobility) and do spatial geo-statistics (pysal); even though I did not use them directly on my project, exploring
+    them planted ideas on a better approach to solve my project.
 
     At the end of these two months, I appreciate the unfamiliar waters I was in and I feel great that I did not drown. 
 
