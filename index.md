@@ -12,13 +12,6 @@ di.display_html('''<button onclick="jQuery('.input_area').toggle(); jQuery('.pro
 ```
 
 
-<script>jQuery(function() {if (jQuery("body.notebook_app").length == 0) { jQuery(".input_area").toggle(); jQuery(".prompt").toggle();}});</script>
-
-
-
-<button onclick="jQuery('.input_area').toggle(); jQuery('.prompt').toggle();">Toggle code</button>
-
-
 # Privacy Risk Assessment
 # National Household Travel Survey Data
 
@@ -61,16 +54,7 @@ di.display_html('''<button onclick="jQuery('.input_area').toggle(); jQuery('.pro
 ```python
 Image(filename='1.png') 
 ```
-
-
-
-
     
-![png](output_3_0.png)
-    
-
-
-
 ## 4.Definitions
 
     The following definitions and concept were used in the risk assessment
@@ -81,15 +65,6 @@ Image(filename='1.png')
 ```python
 Image(filename='3.png') 
 ```
-
-
-
-
-    
-![png](output_6_0.png)
-    
-
-
 
 Arbuckle, L., & Emam, K. E. (2020). Building an Anonymization pipeline: Creating safe data. O'Reilly Media. p.44
 
@@ -113,15 +88,6 @@ Arbuckle, L., & Emam, K. E. (2020). Building an Anonymization pipeline: Creating
 ```python
 Image(filename='4.png') 
 ```
-
-
-
-
-    
-![png](output_8_0.png)
-    
-
-
 
 ### 4.6 Disclosure Risk Measures
 
@@ -169,15 +135,6 @@ Image(filename='4.png')
 Image(filename='5.png') 
 ```
 
-
-
-
-    
-![png](output_10_0.png)
-    
-
-
-
    𝑓𝑘 (sample frequency of key 𝑘): the number of individuals in the sample with the same combination of quasi-identifiers. Therefore, Individuals with the same values of quasi-identifiers have the same sample frequency. 
 
     A value of 2 for an observation means that in the sample, there is one more individual with exactly the same combination of values for the selected variables.
@@ -210,13 +167,6 @@ Image(filename='5.png')
 ```python
 Image(filename='6.png') 
 ```
-
-
-
-
-    
-![png](output_12_0.png)
-    
 
 
 
@@ -263,14 +213,6 @@ Image(filename='6.png')
 ```python
 Image(filename='7.png') 
 ```
-
-
-
-
-    
-![png](output_14_0.png)
-    
-
 
 
 ## 8. References: Please refer to the refefce file attached in this repository.
