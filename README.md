@@ -118,9 +118,10 @@
     The individual risk is the same for all individuals sharing the same pattern of values of quasi-identifiers.
     This individual risk can also be interpreted as the probability of disclosure for the individuals.
 
-    This risk is the worst-case scenario risk and does not imply that the person will be re-identified with certainty with this probability.
-    For instance, if an individual included in the data is not included in the external data file, the probability for a correct match is zero. 
-    Even thought the risk measure computed based on the frequencies was positive.
+    This risk is the worst-case scenario risk and does not imply that the person will be re-identified with certainty 
+    with this probability.
+    For instance, if an individual included in the data is not included in the external data file, the probability for 
+    a correct match is zero. Even thought the risk measure computed based on the frequencies was positive.
 
 
 ### 4.10 Global risk:
@@ -146,7 +147,8 @@
     re- identify data entries in a database system, if the expected amount of self-information contained in the
     system is low, the likelihood of disclosure is low. 
 
-### 4.13 Inadvertent Risk: Captures the probability that data recipient can potentially recognize someone in the data set.
+### 4.13 Inadvertent Risk: 
+    Captures the probability that data recipient can potentially recognize someone in the data set.
 
 
 ## 5. Project Methodology
@@ -179,7 +181,7 @@
 
 ## 8. References: Please refer to the refefce file attached in this repository.
 
-## 9. Learning lessons:
+## 9. Lessons Learned:
 
     Coming into this project with little to zero experience or knowledge in the privacy landscape was bit intimidated and 
     challenging for sure. An intensive literature review was a great place to start and shape the work needed to be done. 
@@ -191,10 +193,10 @@
     predictive due to their data mining, flexible and non-linear nature, are not usually calibrated to model geographical
     relationships, essentially being ‘aspatial’ algorithms. 
 
-    I learn that Spatial is special!!!  Dealing with geo spatial data, I needed a methodology that account not only for spatial
-    structure of data but the meaning of that data. I found specific libraries in python to evaluate privacy using locations d
-    ata(scikit-mobility) and do spatial geo-statistics (pysal); even though I did not use them directly on my project, exploring
-    them planted ideas on a better approach to solve my project.
+    I learn that Spatial is special!!!  Dealing with geo spatial data, I needed a methodology that account not only 
+    for spatial structure of data but the meaning of that data. I found specific libraries in python to evaluate
+    privacy using locations data(scikit-mobility) and do spatial geo-statistics (pysal); even though I did not use 
+    them directly on my project, exploring them planted ideas on a better approach to solve my project.
 
     At the end of these two months, I appreciate the unfamiliar waters I was in and I feel great that I did not drown. 
 
